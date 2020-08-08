@@ -1,0 +1,46 @@
+[{
+  "BusId": 1,
+  "BusName": "Parveen",
+  "Capacity": "30",
+  "Fuel": "80",
+  "Lat": "12.9716° N",
+  "Long": "77.5946° E",
+  "Occupied": "25",
+  "AvailableSeat": "5"
+}, {
+  "BusId": 2,
+  "BusName": "SRM",
+  "Capacity": "30",
+  "Fuel": "80",
+  "Lat": "9.9252° N",
+  "Long": "78.1198° E",
+  "Occupied": "20",
+  "AvailableSeat": "10"
+}, {
+  "BusId": 3,
+  "BusName": "Orange",
+  "Capacity": "30",
+  "Fuel": "80",
+  "Lat": "13.0827° N",
+  "Long": "80.2707° E",
+  "Occupied": "17",
+  "AvailableSeat": "13"
+}, {
+  "BusId": 4,
+  "BusName": "Lucky",
+  "Capacity": "30",
+  "Fuel": "80",
+  "Lat": "28.7041° N",
+  "Long": "77.1025° E",
+  "Occupied": "27",
+  "AvailableSeat": "3"
+}, {
+  "BusId": 5,
+  "BusName": "YBM",
+  "Capacity": "30",
+  "Fuel": "80",
+  "Lat": "11.0168° N",
+  "Long": "76.9558° E",
+  "Occupied": "19",
+  "AvailableSeat": "11"
+}]

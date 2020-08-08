@@ -1,0 +1,26 @@
+<div class="details-page">
+  <div class="row">
+    <div class="flex-width">Bus Number</div>
+    <div class="flex-width">{{busDetails.BusName}}</div>
+  </div>
+  <div class="row">
+    <div class="flex-width">Occupancy Capacity</div>
+    <div class="flex-width">{{busDetails.Capacity}}</div>
+  </div>
+  <div class="row">
+    <div class="flex-width">Current Occupancy</div>
+    <div class="flex-width"><span class="box"
+        [ngClass]="{'green': seatAvailabity === 'more', 'red':seatAvailabity === 'less' }">{{busDetails.Occupied}}</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="flex-width">Fuel Consumption</div>
+    <div class="flex-width">
+      <meter min="0" max="100" low="25" high="75" optimum="50" [value]="busDetails.Fuel"></meter>
+    </div>
+  </div>
+  <!-- <div class="row">
+    <div class="flex-width">Bus Number</div>
+    <div class="flex-width">KA 41 N 4314</div>
+  </div> -->
+</div>

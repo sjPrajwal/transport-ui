@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PubicTransportDashboard"
+    }
+  },
+  "defaultProject": "PubicTransportDashboard",
+  "cli": {
+    "analytics": false
+  }
 }

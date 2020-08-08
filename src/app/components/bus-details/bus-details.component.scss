@@ -1,0 +1,39 @@
+.details-page {
+    font-size: 20px;
+    padding: 20px;
+
+    .row {
+        margin: 35px;
+        display: flex;
+
+        .flex-width {
+            position: relative;
+            width: 50%;
+
+            .box:before {
+                position: absolute;
+                left: -30px;
+                content: "";
+                height: 20px;
+                width: 21px;
+                margin-bottom: 15px;
+                border: 1px solid black;
+                border-radius: 9px;
+            }
+
+            .box.red:before {
+                background-color: red;
+            }
+
+            .box.green:before {
+                background-color: green;
+            }
+
+            .box.blue:before {
+                background-color: blue;
+            }
+        }
+
+
+    }
+}

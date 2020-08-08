@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="bus-map-text">Bus Points on Map</div>
+  <google-map height="400px" [center]="center" [zoom]="zoom" (mapMousemove)="move($event)"
+    (mapRightclick)="removeLastMarker()">
+    <map-marker #marker="mapMarker" *ngFor="let markerPosition of markerPositions" [position]="markerPosition"
+      [options]="markerOptions" (mapClick)="openInfoWindow(marker,markerPosition)">
+    </map-marker>
+    <map-info-window (click)="BusDetails()">{{busNumber}}</map-info-window>
+  </google-map>
+</div>
